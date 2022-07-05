@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 2px solid  yellow; */
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+.navbar{
+    background-color: #263238;
+    color: white;
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+
+}
+.navbar .logo{
+    float: left;
+    font-size: 2.6rem;
+
+}
+
+.navbar .nav-item{
+    letter-spacing: 0.1rem;
+    font-size: 100%;
+    float:right;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.fix{
+    clear:both;
+}
+.navbar ul{
+    list-style-type: none;
+    
+}
+.navbar li{
+    margin: 0 2rem
+}
+h1,h2,h3{
+    font-weight: 500;
+}
+header .logo{
+    letter-spacing: 0.3rem;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: white;
+    /* list-style: none; */
+    padding-bottom: 2px;
+
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
+
+.middlepart{
+    width: 60%;
+    /* text-align: center; */
+    margin: 0 auto;
+
+}
+.middlepart .aboutushead{
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+    border-bottom: 4px solid rgb(212, 57, 57);
+    padding: 0.5rem 0;
+    margin-top: 1.5rem;
+}
+.middlepart .aboutpara{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+
+
+}
+.middlepart .firstthree{
+    font-size: 1.7rem;
+    float: left;
+    margin-left: 10rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.middlepart .secondthree{
+    font-size: 1.7rem;
+    float: right;
+    margin-right: 10rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+
+
+}
+.middlepart .firstthree p,.middlepart .secondthree p{
+    line-height: 2.5rem;
+    font-weight: 500;
+}
+
+
+.achieved
+{
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+
+}
+.achieved ul{
+    list-style: none;
+    
+}
+.achieved .number{
+    text-align: center;
+    padding: 1.5rem 0;
+    padding-bottom: 0.5rem;
+    font-size: 2.35rem;
+    font-weight: 600;
+    color: rgb(212, 57, 57);
+}
+.achieved .numbers-1{
+    float: left;
+    width: 25%;
+}
+.achieved .numbers-2{
+    float: left;
+    width: 25%;
+}
+.achieved .numbers-3{
+    float: right;
+    width: 25%;
+}
+.achieved .numbers-4{
+    float: right;
+    width: 25%;
+}
+.achieved .name{
+    text-align: center;
+    padding: 1.5rem 0;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.30rem;
+
+}
+.achieved .name-1{
+    float: left;
+    width: 25%;
+}
+.achieved .name-2{
+    float: left;
+    width: 25%;
+}
+.achieved .name-3{
+    float: right;
+    width: 25%;
+}
+.achieved .name-4{
+    float: right;
+    width: 25%;
+}
+.fix{
+    clear: both;
+}
+.reachus{
+    background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
+    border: 2px solid red;
+    width: 90%;
+    font-size: 2.5rem;
+    margin:0 auto;
+    margin-top: 4rem;
+    text-shadow: 5px 5px 20px 0 black;
+
+}
+.reachus p{
+    float: left;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.reachus a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 2px solid white;
+    letter-spacing: 0.25rem;
+}

@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/header-image.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-size: 175% ;
+
+}
+header ,a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 1px;
+
+}
+header a:hover{
+    border-bottom: 1px solid white;
+}
+header ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.header .logo{
+    float: left;
+}
+.header .navbar ul {
+    float: right;
+
+}
+.header .navbar .nav-item{
+    display: inline-block;
+
+}
+.header .navbar .classfix{
+    clear: both;
+}
+
+header .logo{
+    letter-spacing: 0.3rem;
+}
+h1,h2,h3{
+    font-weight: 500;
+}
+h5{
+    font-weight: 400;
+}
+.middlepart a:hover{
+    background-color: rgb(238, 238, 238);
+}
+header .nav-item{
+    letter-spacing: 0.1rem;
+    font-size: 100%;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+header .navbar h1{
+    padding-top: 1rem;
+}
+header .navbar li{
+    padding-top: 15px;
+}
+.header .container .middle_part{
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 0.5rem;
+    line-height: 4rem;
+    letter-spacing: 0.3rem;
+    position: relative;
+    top: 30vh;
+
+
+
+}
+
+ .middle_part h2{
+    font-weight: 700;
+}
+.middle_part p{
+     /* border: 2px solid white;  */
+    letter-spacing: 0.01rem;
+    word-spacing: 0.1rem;
+}
+.middle_part a{
+    background-color: aliceblue;
+    color: rgb(207, 89, 89);
+    border-radius: 2rem;                
+    padding: 0.9rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+
+    
+    letter-spacing: 0.06rem;
+}
+
+.showcase{
+    /* border: 5px solid black; */
+    padding: 10rem 0;
+    /* padding-bottom: 0rem; */
+    background-color: rgb(224, 223, 223);
+    
+}
+.showcase img{
+    width: 100%;
+    /* background-position: center; */
+    /* border: 0.2rem solid black; */
+
+
+}
+
+.showcase .container .mountainpara{
+    /* border: 0.5rem solid rgb(255, 0, 0); */
+    margin-bottom: 10rem;
+    /* border: 2px solid black; */
+    
+}
+
+
+.showcase .container .mountainpara, .showcase .container .desertpara{
+    font-size: 1.75rem;
+    background-color: white;
+    
+}
+.showcase .container .mountainpara .img-box{
+    width: 50%;
+    object-fit: cover;
+    
+    float: left;
+    /* position: relative; */
+    /* margin-top: 5px; */
+    /* height: 100%; */
+
+    
+}
+.showcase .container .mountainpara .text-box{
+    width: 50%;
+    text-align: left; 
+    float: right;
+    padding: 1rem 2rem;
+    /* border: 0.2rem solid black; */
+
+    line-height: 2.7rem;
+}
+.showcase .container .mountainpara .headingmount{
+    float: right;
+    width: 50%;
+    /* border: 0.5rem solid black; */
+    padding-left: 2rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.fix{
+    clear: both;
+}
+.showcase .container .desertpara .img-box{
+    width: 50%;
+    
+    float: right;
+}
+.box{
+    box-shadow: 5px 5px 20px #aaa;
+}
+.showcase .container .desertpara .text-box{
+    width: 50%;
+    float: left;
+    padding: 1rem 2rem;
+    text-align: left; 
+    line-height: 2.7rem;
+}
+.showcase .container .desertpara .headingdesert{
+    float: left;
+    width: 50%;
+    /* border: 0.5rem solid black; */
+    padding-left: 2rem;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.showcase a{
+    color: rgb(207, 89, 89);
+    border: 0.2rem solid rgb(207, 89, 89);
+    border-radius: 5rem;
+    padding: 0.3rem 1rem;
+    position: relative;
+    
+    /* margin-top: 1rem; */
+
+}
+.showcase a:hover{
+    background-color: rgb(238, 238, 238);
+}
+.showcase .desertpara .deslink{
+    margin-left: 2rem;
+    /* margin-bott: 2rem; */
+    /* padding-bottom: 2r; */
+}
+.showcase .mountainpara .mountlink{
+    /* margin-left: 2rem; */
+    /* margin-bott: 2rem; */
+    /* padding-bottom: 2r; */
+    margin-left: 2rem;
+    
+}
+.features{
+    /* border: 2px solid purple; */
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.363);
+
+}
+.featurespara,.featuresheading{
+    color: white;
+    padding: 1.25rem;
+    
+    text-align: center;
+}
+.featurespara{
+    padding-top: 0.5rem;
+}
+.features .adventurous, .features .experience{
+    background-color: #263238;
+}
+.features .adventurous{
+    float: left;
+    width: 33.33%;
+}
+.features i{
+    color: white;
+    padding-top: 1rem;
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+
+}
+.features .lessprice{
+    float: left;
+    width: 33.33%;
+    background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
+
+    /* padding-bottom: 3rem; */
+}
+.features .experience{
+    float: left;
+    width: 33.33%;
+}
+
+.features h4{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0.75;
+}
+.features p{
+    font-size: 1.25rem;
+    
+}
+
+footer{
+    background-color: #263238;
+    text-align: center;
+}
+footer p{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+footer i{
+    color: white;
+    padding-top: 2rem;
+    /* margin-bottom: 2rem; */
+    margin: 0rem 1rem;
+}
+
+@media  (max-width: 620px) {
+    html{
+        font-size: 0.5rem;
+    }
+    .container{
+        width: 100%;
+    }
+    .header .navbar .logo{
+        float: none;
+        display:block;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .header .navbar ul{
+        float: none;
+        display: block;
+        text-align: center;
+
+        margin-right: 0.5rem;
+        margin-left: 0.5rem; 
+    }
+     /* .mountainpara .img-box{
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+        float: none;
+        border: 2px solid red;
+        /* position: relative; */
+        /* margin-top: 5px; */
+        /* height: 100%; *
+    
+        
+    }
+     .mountainpara .text-box{
+        float: none;
+        width: 100%;
+        text-align: center; 
+        /* border: 2px solid red; */
+        
+        /* padding: 1rem 2rem; */
+        /* border: 0.2rem solid black; *
+    
+        line-height: 1.35rem;
+    }
+     .mountainpara .headingmount{
+        border: 2px solid red;
+        float: none;
+        width: 100%;
+        /* border: 0.5rem solid black; */
+        /* padding-left: 2rem; *
+        text-transform: uppercase;
+        margin-top: 1rem;
+    }
+    .showcase a{
+        color: rgb(207, 89, 89);
+        border: 0.2rem solid rgb(207, 89, 89);
+        border-radius: 5rem;
+        /* padding: 0.3rem 1rem; */
+
+        
+        /* margin-top: 1rem; *
+    
+    } */
+
+    .showcase .container .mountainpara .img-box img{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+}
+
+
+
